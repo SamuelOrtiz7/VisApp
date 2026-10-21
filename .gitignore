@@ -1,0 +1,49 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Carpetas de salida de compilacion (se regeneran al compilar)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM/
+ARM64/
+*.tlog/
+*.ipch
+
+# Artefactos de compilacion sueltos
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.iobj
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+*.vcxproj.filters.user
+
+# Autoguardados de Visual Studio dejados en el directorio del proyecto
+*.TMP
+*~RF*
+
+# Configuracion local con credenciales de la base de datos: nunca se sube
+db_config.ini
+
+# Comprimidos de respaldo manual
+*.rar
+*.zip
